@@ -1811,3 +1811,39 @@ section,
   transform: translateY(-5px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
+
+.thankyou-card {
+  background: #0000;
+  padding: 2rem 3rem;
+  border: 1px solid color-mix(in srgb, #18d26e, transparent 70%);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  max-width: 500px;
+}
+
+.thankyou-card h1 {
+  font-size: 2rem;
+  color: var(--heading-color);
+  margin-bottom: 1rem;
+}
+
+.thankyou-card p {
+  font-size: 1rem;
+  color: var(--heading-color);
+  margin-bottom: 2rem;
+}
+
+.thankyou-card a {
+  display: inline-block;
+  text-decoration: none;
+  background: #18d26e;
+  color: #1a1a1a;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.thankyou-card a:hover {
+  background: #666;
+}
